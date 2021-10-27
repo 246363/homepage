@@ -1,5 +1,6 @@
 html{
-    font-family: 'Zen Kaku Gothic Antique', sans-serif;
+    font-family: 'Zen Kaku Gothic Antique', sans-serif, 'Teko';
+    background-color: lightblue;
     
    
 
@@ -11,18 +12,19 @@ html{
 
 
 h1{
-    color: red;
-    font-size:50px;
+    color: black;
+    font-size:80px;
     font-weight:100;
+    font-family: 'Zen Kaku Gothic Antique';
 }
 
 .searchbox{
-    width: ;
+    width: 450px;
     max-width:600px;
     font-size:36px;
     border-radius:0;
     font-weight:100;
-    color:#999;
+    background-color: lightblue;
 
     
 }
@@ -34,6 +36,26 @@ h1{
     font-weight:100;
     transition:.2s;
 }
+
+.bookmarks a{
+  font-size: 43px;
+  margin:0 20px;
+  color:black;
+  padding: 1px;
+  transition:.25s;
+  text-decoration: none;
+  
+
+
+  
+}
+
+.bookmarks a:hover{
+    font-size:62px;
+    
+    
+ }
+ 
 
 
 
